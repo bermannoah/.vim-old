@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/noah/turing/1module/bon_appetit'
+let g:netrw_dirhist_2='/Users/noah/turing/1module/bon_appetit/test'
+let g:netrw_dirhist_3='/Users/noah/turing/mod2/rush-hour'
+let g:netrw_dirhist_4='/Users/noah/turing/mod2/rush-hour/app'
+let g:netrw_dirhist_5='/Users/noah/turing/mod2/rush-hour/app/views'
+let g:netrw_dirhist_6='/Users/noah/turing/mod2/rush-hour'
+let g:netrw_dirhist_7='/Users/noah/turing/mod2/rush-hour/app'
+let g:netrw_dirhist_8='/Users/noah/turing/mod2/rush-hour/app/models'
