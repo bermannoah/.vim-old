@@ -1,6 +1,11 @@
- inoremap jk <ESC>
- " jk is escape
+colors smyck
+" config options for zenburn color scheme
+inoremap jk <ESC>
+" jk is escape
 let mapleader ="," " leader is comma
+" should autoreload on file changes
+:set autoread
+ 
 filetype plugin indent on " load filetype-specific indent files
 syntax enable  " enable syntax processing
 set encoding=utf-8
@@ -19,7 +24,8 @@ nnoremap <leader><space> :nohlsearch<CR>
 nnoremap <leader>s :mksession<CR>
 map <C-n> :NERDTreeToggle<CR>
 " opens a NERDTree with ctrl + n
-
+:set splitright
+" opens split panes to the right
 " RSpec.vim mappings
 map <Leader>t :call RunCurrentSpecFile()<CR>
 map <Leader>s :call RunNearestSpec()<CR>
